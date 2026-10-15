@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f7ef">
+<meta name="description" content="Read the original ChatGPT, Claude and Gemini deep research reports for the Live to Eat Food monetization strategy.">
+<title>Research Library | Live to Eat Food</title>
+<style>
+:root{--paper:#f7f7ef;--white:#fffef9;--ink:#192d27;--muted:#53665d;--line:#dce4d6;--green:#245b47;--yellow:#f9e6a2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.7}a{color:var(--green);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}.wrap{max-width:1200px;margin:0 auto;padding:0 24px}.bar{background:#1f4639;color:#e8f4df;padding:11px 0;font-size:.76rem;letter-spacing:.08em;text-transform:uppercase}.top{background:rgba(247,247,239,.96);position:sticky;top:0;z-index:3;border-bottom:1px solid var(--line)}.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:70px}.brand{font:700 1.15rem Georgia,serif;text-decoration:none;color:var(--ink)}.back{font-size:.82rem;font-weight:700}.hero{padding:52px 0 30px}.eyebrow{color:#386a4c;font-size:.73rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase}h1,h2,h3{color:var(--ink)}.hero h1{font:500 clamp(2.5rem,6vw,4.7rem)/1.04 Georgia,serif;letter-spacing:-.045em;margin:12px 0 15px}.intro{max-width:800px;color:var(--muted);font-size:1.04rem}.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:25px 0 17px}.tab{border:1px solid #bdceb8;padding:11px 20px;border-radius:100px;text-decoration:none;font-weight:800;font-size:.9rem;color:var(--green);background:#fff}.tab[aria-current="page"]{background:var(--green);color:#fff}.note{background:#fff1bb;border-left:4px solid #caab43;border-radius:9px;padding:13px 18px;color:#554d2e;margin:18px 0 28px;font-size:.87rem}.toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:0 0 20px}.btn{border:1px solid var(--ink);background:var(--ink);color:#fff;text-decoration:none;border-radius:100px;padding:9px 16px;font-size:.82rem;font-weight:800;cursor:pointer}.btn.secondary{color:var(--green);background:transparent;border-color:#aec5ae}.meta{font-size:.84rem;color:var(--muted);margin-left:auto}.layout{display:grid;grid-template-columns:minmax(0,1fr) 235px;gap:27px;align-items:start;padding-bottom:75px}.article{min-width:0;background:var(--white);padding:clamp(22px,4vw,56px);border-radius:22px;border:1px solid var(--line);box-shadow:0 7px 26px #284b3710}.article>h1:first-child{font:500 clamp(2rem,4vw,3.15rem)/1.15 Georgia,serif;letter-spacing:-.03em}.article h2{font:500 1.9rem/1.18 Georgia,serif;letter-spacing:-.02em;border-top:1px solid var(--line);padding-top:30px;margin-top:45px}.article h3{font-size:1.25rem;margin-top:30px}.article h4{font-size:1.02rem}.article :is(h1,h2,h3,h4,h5,h6){scroll-margin-top:96px}.article p,.article li{color:#354940}.article p{margin:0 0 1.1rem}.article ul,.article ol{padding-left:1.6rem}.article li{margin:.35rem 0}.article blockquote{border-left:4px solid #9fc398;padding:8px 22px;margin:24px 0;background:#f0f6e9}.article blockquote p:last-child{margin-bottom:0}.article table{border-collapse:collapse;width:100%;font-size:.88rem;margin:22px 0;display:block;overflow-x:auto}.article th,.article td{padding:11px 13px;border:1px solid #d7e1d3;text-align:left;vertical-align:top;min-width:110px}.article th{background:#e8f1e4;color:#234b36}.article tr:nth-child(even) td{background:#f9fbf5}.article pre{background:#18392e;color:#e8f4e9;padding:18px 20px;white-space:pre;overflow:auto;border-radius:12px;font-size:.82rem;line-height:1.5}.article :not(pre)>code{background:#eaf1e6;padding:.1em .35em;border-radius:4px;overflow-wrap:anywhere}.article img{max-width:100%;height:auto}.article a{overflow-wrap:anywhere}.article hr{border:0;border-top:1px solid var(--line);margin:35px 0}.side{position:sticky;top:95px;max-height:calc(100vh - 120px);overflow:auto;background:#f0f6ea;border:1px solid var(--line);border-radius:17px;padding:19px}.side strong{display:block;font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;margin-bottom:12px}.side a{display:block;padding:7px 0;text-decoration:none;font-size:.78rem;line-height:1.4;border-bottom:1px solid #dce7d9}.side a:hover{text-decoration:underline}.status{font-size:.94rem;font-weight:700}.footer{background:#1e4033;padding:28px 0;color:#d5e8d5}.footer a{color:#fff}.footline{font-size:.78rem;color:#cfddcf}.plain{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.7}details{margin-top:10px}summary{cursor:pointer;font-weight:700}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.side{position:static;max-height:350px;order:-1}.hero{padding-top:35px}}
+@media(max-width:600px){.wrap{padding:0 16px}.tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.tab{padding:11px 8px;text-align:center;font-size:.8rem}.top .wrap{min-height:60px}.meta{width:100%;margin-left:0}.article{padding:20px 17px}.article h2{font-size:1.55rem}}
+@media print{.bar,.top,.hero .intro,.tabs,.note,.toolbar,.side,.footer{display:none!important}.layout{display:block}.article{padding:0;border:0;box-shadow:none}.wrap{max-width:none}.hero{padding:0}.hero h1{font-size:20px}.article h2{break-after:avoid}.article pre,.article table{break-inside:avoid}body{background:white}}
+</style>
+<script defer src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+</head>
+<body>
+<div class="bar"><div class="wrap">ORIGINAL RESEARCH REPORTS · OCTOBER 2026</div></div>
+<header class="top"><div class="wrap"><a class="brand" href="./index.html">✳ Live to Eat Food</a><a class="back" href="./index.html">← Back to strategy brief</a></div></header>
+<section class="hero"><div class="wrap"><div class="eyebrow">Research library / full original reports</div><h1>Read the deep research.</h1><p class="intro">Three independent AI research perspectives on transparent food-influencer sponsorships, rates, editorial trust, website monetization and a Worcester-first growth strategy. The reports are preserved as written; recommendations are not automatically verified facts.</p>
+<nav class="tabs" aria-label="Choose research report">
+<a class="tab" data-tab="chatgpt" href="?report=chatgpt">ChatGPT</a>
+<a class="tab" data-tab="claude" href="?report=claude">Claude</a>
+<a class="tab" data-tab="gemini" href="?report=gemini">Gemini</a>
+</nav>
+<p class="note"><strong>Evidence note:</strong> Some source citations are research-tool placeholders, and reported follower counts and local-audience percentages conflict across reports. Confirm audience data with Tina's first-party analytics, verify regulatory and pricing claims against original sources, and have a Massachusetts attorney review final policies and agreements. Financial scenarios are illustrative.</p>
+<div class="toolbar"><a class="btn secondary" id="source" target="_blank" rel="noopener noreferrer" href="#">View original Markdown on GitHub ↗</a><a class="btn secondary" id="download" href="#" download>Download .md ↓</a><button class="btn" type="button" onclick="window.print()">Print / Save as PDF</button><span class="meta" id="meta">Select a report to read below.</span></div>
+</div></section>
+<main class="wrap layout"><article class="article" id="report" aria-live="polite"><p class="status">Loading the original report…</p></article><aside class="side" id="toc" aria-label="Report contents"><strong>On this page</strong><p class="status">Loading…</p></aside></main>
+<footer class="footer"><div class="wrap"><div>Live to Eat Food · Research and planning reference</div><p class="footline">This site is a strategy brief and document viewer, not legal, tax or financial advice. The three research documents remain attributed to their original AI models.</p><a href="./index.html">← Return to the business strategy</a></div></footer>
+<script>
+(function(){
+  'use strict';
+  var base='https://github.com/CptNope/Live-To-Eat-Food-Monitization/blob/main/';
+  var files={
+    chatgpt:'ChatGPT Regional Food Media Monetization Strategy.md',
+    claude:'Claude Regional Food Media Monetization Strategy.md',
+    gemini:'Gemini Regional Food Media Monetization Strategy.md'
+  };
+  var labels={chatgpt:'ChatGPT',claude:'Claude',gemini:'Gemini'};
+  var wanted=new URLSearchParams(location.search).get('report');
+  var id=Object.prototype.hasOwnProperty.call(files,wanted)?wanted:'chatgpt';
+  var filename=files[id],encoded=encodeURIComponent(filename);
+  document.title=labels[id]+' Deep Research | Live to Eat Food';
+  document.querySelectorAll('[data-tab]').forEach(function(a){if(a.dataset.tab===id){a.setAttribute('aria-current','page')}});
+  document.getElementById('source').href=base+encoded;
+  var download=document.getElementById('download');
+  download.href='./'+encoded;download.download=filename;
+  var report=document.getElementById('report'),toc=document.getElementById('toc');
+  fetch('./'+encoded,{cache:'no-cache'}).then(function(res){if(!res.ok)throw new Error('HTTP '+res.status);return res.text()}).then(function(markdown){
+    document.getElementById('meta').textContent=labels[id]+' report · '+Math.round(markdown.length/1000)+'K characters · original source';
+    if(!window.marked||!window.DOMPurify){
+      report.replaceChildren();
+      var info=document.createElement('p');info.textContent='Formatted rendering is unavailable; displaying the complete readable source below.';
+      var pre=document.createElement('pre');pre.className='plain';pre.textContent=markdown;
+      report.append(info,pre);toc.replaceChildren();return;
+    }
+    marked.setOptions({gfm:true,breaks:false});
+    report.innerHTML=DOMPurify.sanitize(marked.parse(markdown),{USE_PROFILES:{html:true}});
+    report.querySelectorAll('a[href]').forEach(function(a){if(/^https?:\/\//i.test(a.getAttribute('href')||'')){a.target='_blank';a.rel='noopener noreferrer'}});
+    toc.replaceChildren();
+    var title=document.createElement('strong');title.textContent='On this page';toc.append(title);
+    var headings=report.querySelectorAll('h2, h3');
+    var seen={};
+    headings.forEach(function(h,i){
+      var slug='section-'+i;h.id=slug;
+      var link=document.createElement('a');link.href='#'+slug;
+      link.textContent=(h.tagName==='H3'?'  ↳ ':'')+h.textContent;
+      if(h.tagName==='H3')link.style.paddingLeft='12px';
+      toc.append(link);
+    });
+    if(!headings.length){var p=document.createElement('p');p.textContent='Use your browser Find feature to search the report.';toc.append(p)}
+  }).catch(function(err){
+    report.replaceChildren();var p=document.createElement('p');p.className='status';
+    p.textContent='The report could not be loaded ('+err.message+'). Use “View original Markdown on GitHub” above to read the source.';
+    report.append(p);toc.replaceChildren();
+  });
+})();
+</script>
+</body>
+</html>
