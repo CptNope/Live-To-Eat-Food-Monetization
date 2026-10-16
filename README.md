@@ -4,10 +4,10 @@ A Worcester-first food media monetization strategy for Live to Eat Food, present
 
 ## View online
 
-- [Website partnership proposal](https://cptnope.github.io/Live-To-Eat-Food-Monitization/)
-- [ChatGPT full research report](https://cptnope.github.io/Live-To-Eat-Food-Monitization/reports.html?report=chatgpt)
-- [Claude full research report](https://cptnope.github.io/Live-To-Eat-Food-Monitization/reports.html?report=claude)
-- [Google Gemini full research report](https://cptnope.github.io/Live-To-Eat-Food-Monitization/reports.html?report=gemini)
+- [Website partnership proposal](https://cptnope.github.io/Live-To-Eat-Food-Monetization/)
+- [ChatGPT full research report](https://cptnope.github.io/Live-To-Eat-Food-Monetization/reports.html?report=chatgpt)
+- [Claude full research report](https://cptnope.github.io/Live-To-Eat-Food-Monetization/reports.html?report=claude)
+- [Google Gemini full research report](https://cptnope.github.io/Live-To-Eat-Food-Monetization/reports.html?report=gemini)
 - [Separate Live to Eat Food v2 design concept — awaiting feedback](https://cptnope.github.io/Live-To-Eat-Food-v2/index.html)
 
 ## How it works
