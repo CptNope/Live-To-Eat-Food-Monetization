@@ -1,10 +1,10 @@
 # Live to Eat Food — Monetization Research
 
-A Worcester-first food media monetization strategy for Live to Eat Food, presented as a decision-ready brief plus the full original research from ChatGPT, Claude, and Google Gemini.
+A Worcester-first food media monetization strategy for Live to Eat Food, presented as a website partnership proposal for Tina plus the full original research from ChatGPT, Claude, and Google Gemini.
 
 ## View online
 
-- [Research strategy and business opportunity](https://cptnope.github.io/Live-To-Eat-Food-Monitization/)
+- [Website partnership proposal](https://cptnope.github.io/Live-To-Eat-Food-Monitization/)
 - [ChatGPT full research report](https://cptnope.github.io/Live-To-Eat-Food-Monitization/reports.html?report=chatgpt)
 - [Claude full research report](https://cptnope.github.io/Live-To-Eat-Food-Monitization/reports.html?report=claude)
 - [Google Gemini full research report](https://cptnope.github.io/Live-To-Eat-Food-Monitization/reports.html?report=gemini)
